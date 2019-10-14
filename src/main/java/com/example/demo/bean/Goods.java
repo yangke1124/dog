@@ -2,17 +2,17 @@ package com.example.demo.bean;
 
 public class Goods {
 
-	private int gid;
-	private String gname;
-	private double price;
-	private String getCount;
+	private int gid;// 编号
+	private String gname;// 名称
+	private double price;// 价格
+	private String getCount;// 百分比
 
-	public Goods() {
+	public Goods() {// 无参
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Goods(int gid, String gname, double price, String getCount) {
+	public Goods(int gid, String gname, double price, String getCount) {// 有参
 		super();
 		this.gid = gid;
 		this.gname = gname;
@@ -20,7 +20,7 @@ public class Goods {
 		this.getCount = getCount;
 	}
 
-	public int getGid() {
+	public int getGid() {// 封装
 		return gid;
 	}
 
@@ -53,7 +53,7 @@ public class Goods {
 	}
 
 	@Override
-	public String toString() {
+	public String toString() {// tostring重写
 		return "Goods [gid=" + gid + ", gname=" + gname + ", price=" + price + ", getCount=" + getCount + "]";
 	}
 

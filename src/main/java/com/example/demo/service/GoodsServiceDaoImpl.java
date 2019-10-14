@@ -13,7 +13,7 @@ import com.example.demo.mapper.GoodsMapperDao;
 public class GoodsServiceDaoImpl implements GoodsServiceDao {
 	@Resource
 	private GoodsMapperDao mapperDao;
-
+	// 列表
 	@Override
 	public List<Goods> getGoodsList() {
 		// TODO Auto-generated method stub

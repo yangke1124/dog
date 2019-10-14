@@ -4,6 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace 对应的是接口的全名 -->
 <mapper namespace="com.example.demo.mapper.GoodsMapperDao">
+	<!-- 列表 -->
 	<select id="getGoodsList" resultType="map">
 		SELECT * FROM `1014_goods`
 	</select>

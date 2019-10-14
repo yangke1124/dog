@@ -16,6 +16,7 @@ public class GoodsController {
 	@Resource
 	private GoodsServiceDao serviceDao;
 
+	// 列表
 	@RequestMapping("list.do")
 	public String list(Model model) {
 		List<Goods> goodlist = serviceDao.getGoodsList();
